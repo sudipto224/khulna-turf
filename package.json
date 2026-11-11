@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "description": "Khulna Turf — Turf booking & management system (v5: user login/register auth, per-user My Bookings, Vercel-ready: PWA + SEO + Supabase-ready backend + SSLCommerz-ready payment). Customer website + Owner admin dashboard. Runs with zero env vars (demo mode).",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.9.0"
+  },
+  "name": "khulna-turf",
+  "private": true,
+  "scripts": {
+    "build": "next build --webpack",
+    "dev": "next dev --webpack",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "version": "5.0.0"
+}
